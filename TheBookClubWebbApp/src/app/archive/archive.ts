@@ -2,12 +2,11 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-archive',
   imports: [CommonModule],
-  templateUrl: './header.html',
-  // styleUrl: './header.css'
+  templateUrl: './archive.html',
 })
-export class Header {
+export class Archive {
   dropdownOpen = false;
 
   toggleDropdown() {

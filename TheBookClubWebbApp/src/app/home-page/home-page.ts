@@ -7,7 +7,7 @@ import { Footer } from '../footer/footer';
   imports: [Header, Footer],
   standalone: true,
   templateUrl: './home-page.html',
-    styleUrl: './home-page.css'
+    // styleUrl: './home-page.css'
 })
 export class HomeComponent {
   protected readonly bookTitle = signal('The Great Gatsby');

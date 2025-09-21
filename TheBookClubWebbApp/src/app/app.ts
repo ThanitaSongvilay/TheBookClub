@@ -7,7 +7,7 @@ import { Footer } from './footer/footer';
   selector: 'app-root',
   imports: [HomeComponent], // Add HomeComponent here
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  // styleUrl: './app.css'
 })
 export class App {
   protected readonly title = signal('The Book Club');
