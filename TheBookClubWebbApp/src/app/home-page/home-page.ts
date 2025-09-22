@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { Header } from '../header/header';
 import { Footer } from '../footer/footer';
+import { BookCard } from '../book-card/book-card';
 
 @Component({
   selector: 'app-home',
-  imports: [Header, Footer],
+  imports: [Header, Footer, BookCard],
   standalone: true,
   templateUrl: './home-page.html',
     // styleUrl: './home-page.css'
