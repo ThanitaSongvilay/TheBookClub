@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal, ViewEncapsulation } from '@angular/core';
 import { Header } from '../header/header';
 import { Footer } from '../footer/footer';
 import { BookCard } from '../book-card/book-card';
@@ -8,7 +8,7 @@ import { BookCard } from '../book-card/book-card';
   imports: [Header, Footer, BookCard],
   standalone: true,
   templateUrl: './home-page.html',
-    // styleUrl: './home-page.css'
+  encapsulation: ViewEncapsulation.None,
 })
 export class HomeComponent {
   protected readonly bookTitle = signal('The Great Gatsby');

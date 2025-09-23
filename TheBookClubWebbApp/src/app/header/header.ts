@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   selector: 'app-header',
   imports: [CommonModule],
   templateUrl: './header.html',
-  // styleUrl: './header.css'
 })
 export class Header {
   dropdownOpen = false;
