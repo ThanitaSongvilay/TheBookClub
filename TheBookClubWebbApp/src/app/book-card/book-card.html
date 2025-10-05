@@ -1,21 +1,64 @@
-<section class="bg-[#eddfe6] p-8 rounded-xl shadow-lg w-[90%] md:w-[60%] lg:w-[50%] mx-auto">
-  <h2 class="text-2xl font-bold text-[#2d3e50] mb-6 text-center">Book of the Month</h2>
+<!-- <section class="bg-[#eddfe6] p-8 rounded shadow-lg w-[90%] md:w-[60%] lg:w-[30%] mx-auto">
 
-  <div class="flex flex-col items-center rounded-lg p-4 bg-white shadow-md">
-    <img class="w-24 h-24 object-cover object-top rounded-xl shadow mb-4" 
+  <div class="flex flex-row grid-cols-2">
+
+    <img class="w-65 h-100 object-cover object-top rounded shadow mb-4" 
          src="assets/img/books/piranesi.jpeg" 
          alt="Piranesi" />
-
-    <h3 class="text-xl font-semibold text-[#2d3e50] text-center mb-2">
-      Title: <span class="italic">Piranesi</span>
+    
+    <div> 
+    <h3 class="font-script text-2xl text-bold text-[#2d3e50] p-4">
+    <span class="">Piranesi</span>
     </h3>
 
-    <p class="text-base text-[#4b5563] text-center mb-1">
-      <span class="font-medium">Author:</span> Susanna Clarke
+    <p class="text-base text-[#4b5563] p-4 mb-2">
+      by Susanna Clarke
     </p>
 
     <p class="text-base text-[#4b5563] text-center">
       A fantasy novel that explores a mysterious world through the eyes of its protagonist, Piranesi.
     </p>
+    </div>
+    
   </div>
-</section> 
+</section>  -->
+
+<!-- 
+flex ensures the left and right sides are next to each other.
+
+overflow-hidden makes sure that nothing spills outside the box. -->
+
+
+<!-- Modal Overlay -->
+<div class="flex items-center justify-center z-50">
+
+  <!-- Modal Card -->
+  <div class="bg-white w-[900px] h-[575px] rounded-2xl shadow-2xl flex overflow-hidden">
+
+    <!-- Book Cover Section -->
+    <div class="w-1/3 p-6 flex items-center justify-center bg-orange-50">
+      <img src="assets/img/books/piranesi.jpeg" alt="Book Cover" class="shadow-md max-h-full object-contain">
+    </div>
+
+    <!-- Book Info Section -->
+    <div class="w-2/3 p-8 flex flex-col justify-between bg-orange-50">
+      
+      <!-- Text Content -->
+      <div>
+        <h2 class="text-3xl font-serif text-gray-800 mb-2">Piranesi</h2>
+        <p class="text-lg font-semibold text-gray-600 mb-4">by Susanna Clarke</p>
+        <p class="text-gray-700 text-base leading-relaxed">
+           A fantasy novel that explores a mysterious world through the eyes of its protagonist, Piranesi.
+        </p>
+      </div>
+
+      <!-- Read More Button -->
+      <div class="mt-6">
+        <button class="bg-rose-400 text-white px-6 py-3 rounded shadow hover:bg-rose-600 transition duration-200">
+          Read More
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
