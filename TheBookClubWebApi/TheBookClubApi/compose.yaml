@@ -1,0 +1,7 @@
+﻿services:
+  thebookclubapi:
+    image: thebookclubapi
+    build:
+      context: .
+      dockerfile: TheBookClubApi/Dockerfile
+
