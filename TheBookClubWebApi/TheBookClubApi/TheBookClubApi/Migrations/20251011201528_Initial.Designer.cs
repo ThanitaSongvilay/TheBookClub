@@ -10,8 +10,8 @@ using TheBookClubApi.DataAccess;
 namespace TheBookClubApi.Migrations
 {
     [DbContext(typeof(BookClubContext))]
-    [Migration("20251011183909_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20251011201528_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -42,7 +42,7 @@ namespace TheBookClubApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Books");
+                    b.ToTable("Book");
                 });
 #pragma warning restore 612, 618
         }

@@ -9,6 +9,7 @@
       "TheBookClubApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "8.0.20",
+          "Microsoft.Data.Sqlite": "8.0.20",
           "Microsoft.EntityFrameworkCore.Design": "8.0.20",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.20",
           "Swashbuckle.AspNetCore": "6.6.2"
@@ -263,6 +264,12 @@
           "lib/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
             "locale": "zh-Hant"
           }
+        }
+      },
+      "Microsoft.Data.Sqlite/8.0.20": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "8.0.20",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.6"
         }
       },
       "Microsoft.Data.Sqlite.Core/8.0.20": {
@@ -780,6 +787,13 @@
       "sha512": "sha512-l4dDRmGELXG72XZaonnOeORyD/T5RpEu5LGHOUIhnv+MmUWDY/m1kWXGwtcgQ5CJ5ynkFiRnIYzTKXYjUs7rbw==",
       "path": "microsoft.codeanalysis.workspaces.common/4.5.0",
       "hashPath": "microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512"
+    },
+    "Microsoft.Data.Sqlite/8.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k2mM6VuzvNlmrXPCXm+78Y+jgUifiaPdL9TpuSpJ73fLj3ErYq1CqCgDZR/BfBcvAXJrDYWGPrQ775okL62XEA==",
+      "path": "microsoft.data.sqlite/8.0.20",
+      "hashPath": "microsoft.data.sqlite.8.0.20.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/8.0.20": {
       "type": "package",
