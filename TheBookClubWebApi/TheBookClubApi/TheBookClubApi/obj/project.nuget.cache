@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n77TvAnbg2Y=",
+  "dgSpecHash": "zLjpUCpC+3A=",
   "success": true,
-  "projectFilePath": "/Users/thanitasongvilay/Desktop/repos/TheBookClubWebApi/TheBookClubApi/TheBookClubApi/TheBookClubApi.csproj",
+  "projectFilePath": "/Users/thanitasongvilay/Desktop/repos/TheBookClub/TheBookClubWebApi/TheBookClubApi/TheBookClubApi/TheBookClubApi.csproj",
   "expectedPackageFiles": [
     "/Users/thanitasongvilay/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/thanitasongvilay/.nuget/packages/microsoft.aspnetcore.openapi/8.0.20/microsoft.aspnetcore.openapi.8.0.20.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/thanitasongvilay/Desktop/repos/TheBookClubWebApi/TheBookClubApi/TheBookClubApi/TheBookClubApi.csproj": {}
+    "/Users/thanitasongvilay/Desktop/repos/TheBookClub/TheBookClubWebApi/TheBookClubApi/TheBookClubApi/TheBookClubApi.csproj": {}
   },
   "projects": {
-    "/Users/thanitasongvilay/Desktop/repos/TheBookClubWebApi/TheBookClubApi/TheBookClubApi/TheBookClubApi.csproj": {
+    "/Users/thanitasongvilay/Desktop/repos/TheBookClub/TheBookClubWebApi/TheBookClubApi/TheBookClubApi/TheBookClubApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/thanitasongvilay/Desktop/repos/TheBookClubWebApi/TheBookClubApi/TheBookClubApi/TheBookClubApi.csproj",
+        "projectUniqueName": "/Users/thanitasongvilay/Desktop/repos/TheBookClub/TheBookClubWebApi/TheBookClubApi/TheBookClubApi/TheBookClubApi.csproj",
         "projectName": "TheBookClubApi",
-        "projectPath": "/Users/thanitasongvilay/Desktop/repos/TheBookClubWebApi/TheBookClubApi/TheBookClubApi/TheBookClubApi.csproj",
+        "projectPath": "/Users/thanitasongvilay/Desktop/repos/TheBookClub/TheBookClubWebApi/TheBookClubApi/TheBookClubApi/TheBookClubApi.csproj",
         "packagesPath": "/Users/thanitasongvilay/.nuget/packages/",
-        "outputPath": "/Users/thanitasongvilay/Desktop/repos/TheBookClubWebApi/TheBookClubApi/TheBookClubApi/obj/",
+        "outputPath": "/Users/thanitasongvilay/Desktop/repos/TheBookClub/TheBookClubWebApi/TheBookClubApi/TheBookClubApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/thanitasongvilay/.nuget/NuGet/NuGet.Config"
