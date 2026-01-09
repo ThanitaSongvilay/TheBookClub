@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, EventEmitter, Output, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-book-card',
@@ -9,5 +9,11 @@ import { Component, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None,
 })
 export class BookCard {
+  @Output() exit = new EventEmitter<void>();
+
   activeBook = true;
+
+  close(): void {
+    this.exit.emit();
+  }
 }

@@ -1,11 +1,12 @@
 import { Component, signal, ViewEncapsulation } from '@angular/core';
 import { Header } from '../header/header';
 import { Footer } from '../footer/footer';
-import { BookCard } from '../book-card/book-card';
+
+import { BookThumbnail } from '../book-thumbnail/book-thumbnail';
 
 @Component({
   selector: 'app-home',
-  imports: [Header, Footer, BookCard],
+  imports: [Header, Footer, BookThumbnail],
   standalone: true,
   templateUrl: './home-page.html',
   encapsulation: ViewEncapsulation.None,

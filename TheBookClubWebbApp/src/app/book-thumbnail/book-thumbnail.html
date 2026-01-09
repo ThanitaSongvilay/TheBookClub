@@ -1,0 +1,14 @@
+<img 
+*ngIf= "!showChild"
+src="assets/img/books/piranesi.jpeg" 
+    alt="Book Thumbnail" 
+    (click)="openChild()"
+    style="cursor: pointer;">
+
+
+<!-- Centered Child -->
+<div *ngIf="showChild" class="child-container">
+  <app-book-card
+    (exit)="closeChild()">
+  </app-book-card>
+</div>

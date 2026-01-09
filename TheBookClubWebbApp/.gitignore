@@ -40,3 +40,24 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Assembly info files 
+./*.AssemblyInfo.*
+./*.AssemblyInfoInputs.*
+./rider.project.restore.info
+*.nuget.info
+*.rider.project.model.nuget.info
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+

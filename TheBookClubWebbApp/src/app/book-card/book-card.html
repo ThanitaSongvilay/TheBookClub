@@ -53,9 +53,12 @@ overflow-hidden makes sure that nothing spills outside the box. -->
       </div>
 
       <!-- Read More Button -->
-      <div class="mt-6">
+      <div class="mt-6" >
         <button class="bg-rose-400 text-white px-6 py-3 rounded shadow hover:bg-rose-600 transition duration-200">
           Read More
+        </button>
+        <button (click)="close()" class="bg-rose-400 text-white px-6 py-3 rounded shadow hover:bg-rose-600 transition duration-200">
+          Exit
         </button>
       </div>
     </div>
